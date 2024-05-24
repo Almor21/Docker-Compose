@@ -1,4 +1,4 @@
-# Docker Compose Project for University Activity
+# Docker Compose Project
 
 This repository contains a Docker Compose project for a university activity. The project sets up a multi-container Docker application with three services: a web server, an authentication server, and a database server. Below are the details of each service and how they are configured to interact with each other.
 
