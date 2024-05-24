@@ -1,0 +1,34 @@
+POST http://localhost:8000/SignUp
+Content-Type: application/json
+
+{
+    "user": "Edinson",
+    "password": "1234"
+}
+
+###
+POST http://localhost:8000/SingUp
+Content-Type: application/json
+
+{
+    "user": "Noriega",
+    "password": "1234"
+}
+
+###
+POST http://localhost:8000/LogIn
+Content-Type: application/json
+
+{
+    "user": "Edinson",
+    "password": "1234"
+}
+
+###
+POST http://localhost:8000/LogIn
+Content-Type: application/json
+
+{
+    "user": "Alberto",
+    "password": "1234"
+}

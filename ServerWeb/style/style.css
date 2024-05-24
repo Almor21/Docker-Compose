@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 600px;
+    height: 350px;
+    box-shadow: 0 0 3px rgba(121, 121, 121, 0.68);
+}
+
+.child_container {
+    box-sizing: border-box;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 50px;
+    border-right: 1px solid rgba(121, 121, 121, 0.68);
+}
+
+.child_container h2 {
+    margin-bottom: 20px;
+    color: rgb(67, 67, 67);
+}
+
+.child_container input,
+.child_container select {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: 1px solid rgb(202, 202, 202);
+    background-color: rgb(249, 251, 255);
+    color: rgb(96, 96, 96);
+    text-align: center;
+    border-radius: 2px;
+}
+
+.child_container input::placeholder {
+    color: rgb(122, 137, 177);
+}
+
+.child_container .btns {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.child_container button {
+    background-color: rgb(55, 161, 230);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    width: 46%;
+    height: 40px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.child_container button:hover {
+    background-color: rgb(55, 146, 206);
+}
+
+.child_container button:active {
+    background-color: rgb(63, 107, 135);
+}
+
+.child_container:nth-child(2) button {
+    width: 40%;
+}
+
+.child_container:nth-child(2) select {
+    width: 60%;
+}

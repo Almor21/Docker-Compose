@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Pagina</title>
+</head>
+<body>
+    <div class="container">
+        <div class="child_container">
+            <h2>Login or SingUp</h2>
+            <input id="inp_user" type="text" placeholder="Username">
+            <input id="inp_pass" type="password" placeholder="Password">
+            <div class="btns">
+                <button id="btn_login">Login</button>
+                <button id="btn_signup" onclick="signUp()">Sign Up</button>
+            </div>
+        </div>
+        <div class="child_container">
+            <h2>CRUD</h2>
+            <input id="inp_id" type="text" placeholder="ID">
+            <input id="inp_grade" type="text" placeholder="Grade">
+            <div class="btns">
+                <button id="btn_send">Send</button>
+                <select id="slc_crud">
+                    <option value="Create">Create</option>
+                    <option value="Read">Read</option>
+                    <option value="Update">Update</option>
+                    <option value="Delete">Delete</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="client.js"></script>
+</body>
+</html>
