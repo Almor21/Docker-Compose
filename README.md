@@ -1,6 +1,6 @@
 # Docker Compose Project
 
-This repository contains a Docker Compose project for a university activity. The project sets up a multi-container Docker application with three services: a web server, an authentication server, and a database server. Below are the details of each service and how they are configured to interact with each other.
+This repository contains a Docker Compose project. The project sets up a multi-container Docker application with three services: a web server, an authentication server, and a database server. Below are the details of each service and how they are configured to interact with each other.
 
 ## Project Structure
 
@@ -64,9 +64,3 @@ To set up and run this project, follow these steps:
 
 - The web server is the only service exposed to the host machine. It communicates with the authentication and database servers through internal Docker networks.
 - The internal networks `db_net` and `auth_net` isolate the communication between services, ensuring security and separation of concerns.
-
-## Author
-
-- Edinson Noriega Molina
-- Universidad del norte
-- Estructura del computador 2
