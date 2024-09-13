@@ -1,6 +1,6 @@
 # Docker Compose Project
 
-This repository contains a Docker Compose project. The project sets up a multi-container Docker application with three services: a web server, an authentication server, and a database server. Below are the details of each service and how they are configured to interact with each other.
+This repository contains a Docker Compose project. This project demonstrates Docker skills using Docker Compose to deploy a development environment with three services: frontend, authentication, and database. Currently, the authentication and database services operate in a basic manner, storing data in a JSON file, as the initial focus of the project is to showcase the use and management of containers. However, the long-term plan is to scale this infrastructure by implementing a real authentication service and connecting a fully functional database. Below are the details of each service and how they are configured to interact with each other.
 
 ## Project Structure
 
